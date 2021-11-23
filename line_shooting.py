@@ -87,7 +87,4 @@ if diff_list != []:
     send_to_slack(diff_list)
     line_shooting(diff_list)
 
-else:
-    line_shooting(diff_list)
-
 output_csv(result)
